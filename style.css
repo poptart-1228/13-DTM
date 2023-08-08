@@ -7,8 +7,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    /* rgba specifies opacity for a color */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), url(baroque_architecture.jpg));
+    background-image: url('cat_face.jpg');
     background-size: cover;
     background-position: center;
 
