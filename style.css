@@ -36,3 +36,11 @@
     color: #fff;
     text-transform: uppercase;
 }
+/* ::after in association with element means this ruleset is applied after this is initialized */
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #009688;
+    position: absolute;
+}
