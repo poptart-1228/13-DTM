@@ -50,3 +50,6 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
+.content{
+    color: #fff;
+}
