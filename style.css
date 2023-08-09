@@ -43,4 +43,8 @@
     width: 100%;
     background: #009688;
     position: absolute;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
 }
