@@ -1,7 +1,11 @@
 .class header{
     color: black;
     font-size: x-large;
-    text-align: center;
+}
+.center{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
 .content h2{
     color: black;
