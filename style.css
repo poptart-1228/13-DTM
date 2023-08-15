@@ -7,6 +7,12 @@
     width: 60%;
     padding: 10px;
 }
+#past-wellington{
+    margin: auto;
+}
+#present-wellington{
+    margin: auto;
+}
 .content h2{
     color: black;
     font-size: large;
