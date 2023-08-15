@@ -13,11 +13,16 @@
 }
 #past-wellington{
     margin: auto;
+    padding: 0 0 0 0;
 }
 #present-wellington{
     margin: auto;
+    padding: 0 0 0 0;
 }
 .content h2{
     color: black;
     font-size: large;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
