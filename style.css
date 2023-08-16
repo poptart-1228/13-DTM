@@ -11,13 +11,25 @@
     width: 60%;
     padding: 10px;
 }
-#past-wellington{
-    margin: auto;
-    padding: 0px 0px 0px 0px;
+body, html {
+    height: 100%;
+  }
+.parallax{
+    /* The image used */
+    background-image: url("maori-te-aro-flat1700x800.jpg");
+    
+    /* Full height */
+    height: 100%;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #present-wellington{
-    margin: auto;
-    padding: 0px 0px 0px 0px;
+    background-image: url("wellington-harbour-present.png");
+    height: 100%;
 }
 .content h2{
     color: black;
