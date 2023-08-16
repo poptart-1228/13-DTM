@@ -29,12 +29,9 @@ body, html {
 }
 #present-wellington{
     background-image: url("wellington-harbour-present.png");
-    height: 100%;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
+    height: 1000px;
+    font-size: 100px;
 }
 .content h2{
     color: black;
