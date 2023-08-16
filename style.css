@@ -3,6 +3,7 @@
     font-family: 'Ysabeau Office', sans-serif;
 }
 .class header{
+    
     color: black;
     font-size: x-large;
 }
@@ -30,7 +31,7 @@ body, html {
 div {
     background-image: url("wellington-harbour-present.png");
    
-    height: 1000px;
+    background-size: cover;
     font-size: 100px;
 }
 .content h2{
