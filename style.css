@@ -27,9 +27,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax #present-wellington{
+#present-wellington{
     background-image: url("wellington-harbour-present.png");
     height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content h2{
     color: black;
