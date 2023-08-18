@@ -2,9 +2,12 @@
     font-family: 'BIZ UDPGothic', sans-serif;
     font-family: 'Ysabeau Office', sans-serif;
 }
-.class header{
-    
-    color: black;
+.class banner{
+    background-image: url(landing_page.PNG);
+
+    background-size: cover;
+
+    color: white;
     font-size: x-large;
 }
 .center{
