@@ -2,7 +2,7 @@
     font-family: 'BIZ UDPGothic', sans-serif;
     font-family: 'Ysabeau Office', sans-serif;
 }
-.class banner{
+.banner{
     background-image: url(landing_page.PNG);
 
     background-size: cover;
@@ -31,7 +31,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-div {
+#present-wellington{
     background-image: url("wellington-harbour-present.png");
    
     background-size: cover;
