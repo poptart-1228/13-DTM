@@ -5,7 +5,7 @@
 .banner{
     background-image: url(landing_page.PNG);
 
-    background-size: contain;
+    background-size: auto;
 
     color: white;
 }
