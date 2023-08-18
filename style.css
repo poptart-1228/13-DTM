@@ -5,10 +5,9 @@
 .banner{
     background-image: url(landing_page.PNG);
 
-    background-size: cover;
+    background-size: contain;
 
     color: white;
-    font-size: x-large;
 }
 .center{
     margin: auto;
@@ -34,7 +33,7 @@ body, html {
 #present-wellington{
     background-image: url("wellington-harbour-present.png");
    
-    background-size: cover;
+    background-size: contain;
     font-size: 100px;
 }
 .content h2{
