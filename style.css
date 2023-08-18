@@ -33,7 +33,7 @@ body, html {
 #present-wellington{
     background-image: url("wellington-harbour-present.png");
    
-    background-size: contain;
+    background-size: auto;
     font-size: 100px;
 }
 .content h2{
