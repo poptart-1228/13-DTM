@@ -61,10 +61,9 @@ h2, p{
     margin: auto; */
 }
 #content-page{
-    width: 60%;
-    padding: 10px;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(29,129,195,1) 0%, rgba(26,158,149,0.54) 100%);
+    background: linear-gradient(0deg, rgba(29,129,195,1) 0%, rgba(26,158,149,0.54) 100%);
+    background-repeat: no-repeat;
 }
 /* p{
     text-align: left;
