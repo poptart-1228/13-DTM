@@ -9,7 +9,6 @@
 
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
 
     color: white;
@@ -38,9 +37,13 @@ body, html {
 #present-wellington{
     background-image: url("wellington-harbour-present.png");
    
+    min-height: 100vh;
     background-size: auto;
     font-size: 100px;
     width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .content h2{
     color: black;
