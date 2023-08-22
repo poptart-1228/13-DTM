@@ -51,15 +51,19 @@ h2{
     color: black;
     font-size: large;
     
-    position: relative;
+    text-align: center;
+    /* position: relative;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: auto; */
 }
 section{
     width: 60%;
     padding: 10px;
     min-height: 100vh;
+}
+p{
+    text-align: left;
 }
