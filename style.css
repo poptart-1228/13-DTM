@@ -62,7 +62,7 @@ h2, p{
 }
 #content-page{
     min-height: 100vh;
-    background: linear-gradient(0deg, rgba(29,129,195,1) 50% rgba(26,158,149,0.54) 50%);
+    background: linear-gradient(0deg, rgba(29,129,195,1) 100% rgba(26,158,149,0.54) 0%);
     background-repeat: no-repeat;
 }
 /* p{
