@@ -47,7 +47,7 @@ body, html {
     background-size: cover;
     position: relative;
 }
-h2, p{
+h2{
     color: white;
     font-size: large;
     
@@ -64,6 +64,13 @@ h2, p{
     background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
     background-repeat: no-repeat;
 }
-/* p{
+p{
+    /* TO DO:
+     figure out how much left/right I want these to be */
     text-align: left;
-} */
+    color: white;
+}
+p{
+    text-align: right;
+    color: white;
+}
