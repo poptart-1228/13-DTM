@@ -64,13 +64,15 @@ h2{
     background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
     background-repeat: no-repeat;
 }
-p{
+#left{
     /* TO DO:
      figure out how much left/right I want these to be */
     text-align: left;
     color: white;
+    margin: 10px 10px 10px 10px;
 }
-p{
+#right{
     text-align: right;
     color: white;
+    margin: 10px 10px 10px 10px;
 }
