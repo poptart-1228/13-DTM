@@ -72,9 +72,9 @@ h2{
     margin: 10px 10px 10px 10px;
       border: 1px solid #4CAF50;
 }
-#right #left{
+#right :left{
     text-align: right;
-    
+
     color: inherit;
     margin: inherit;  
     border: inherit;
