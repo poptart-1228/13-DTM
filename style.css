@@ -71,7 +71,7 @@ h2{
      height: 394px; 
      left: 192px; 
      top: 520px; 
-     position: absolute; 
+     position: relative; 
      color: white; 
      font-size: 40px; 
      font-weight: 400; 
@@ -83,7 +83,7 @@ h2{
     height: 394px; 
     left: 966px; 
     top: 1018px; 
-    position: absolute; 
+    position: relative; 
     color: white; 
     font-size: 40px; 
     font-weight: 400; 
