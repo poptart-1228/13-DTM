@@ -71,11 +71,13 @@ h2{
     color: white;
     margin: 10px 10px 10px 10px;
     border: 1px solid #4CAF50;
+    padding: 25%;
 }
-#right #left{
+#right{
     text-align: right;
 
-    color: inherit;
-    margin: inherit;  
-    border: inherit;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #4CAF50;
+    padding: 25%;
 }
