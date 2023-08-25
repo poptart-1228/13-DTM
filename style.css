@@ -69,15 +69,13 @@ h2{
      figure out how much left/right I want these to be */
     text-align: left;
     color: white;
-    margin: 10px 10px 10px 10px;
+    margin: 25%;
     border: 1px solid #4CAF50;
-    padding: 25%;
 }
 #right{
-    text-align: right;
+    text-align: left;
 
     color: white;
-    margin: 10px 10px 10px 10px;
+    margin: 25%;
     border: 1px solid #4CAF50;
-    padding: 25%;
 }
