@@ -60,7 +60,7 @@ h2{
     margin: auto; */
 }
 #content-page{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
     background-repeat: no-repeat;
 }
