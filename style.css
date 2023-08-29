@@ -70,7 +70,8 @@ h2{
     position: relative;
     text-align: left;
     color: white;
-    margin: 25% 25% 25% 40%;
+    /* margin: 25% 25% 25% 40%; */
+    margin: 25% ;
     border: 1px solid #4CAF50;
 }
 #right{
@@ -78,6 +79,6 @@ h2{
 
     position: relative;
     color: white;
-    margin: 25% 40% 25% 25%;
+    /* margin: 25% 40% 25% 25%; */
     border: 1px solid #4CAF50;
 }
