@@ -70,7 +70,7 @@ h2{
     position: relative;
     text-align: left;
     color: white;
-    padding: 25% 50% 25% 0%;
+    margin: 25% 25% 25% 40%;
     border: 1px solid #4CAF50;
 }
 #right{
@@ -78,6 +78,6 @@ h2{
 
     position: relative;
     color: white;
-    padding: 25% 50% 25% 0%;
+    margin: 25% 40% 25% 25%;
     border: 1px solid #4CAF50;
 }
