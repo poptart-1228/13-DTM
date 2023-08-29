@@ -64,7 +64,11 @@ h2{
     background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
     background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 .center #left{
+=======
+.class #left{
+>>>>>>> 4f9a0a4741725c5d5e9dd6a01fce97bc4845442d
     /* TO DO:
      figure out how much left/right I want these to be */
     position: relative;
