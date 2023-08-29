@@ -67,15 +67,17 @@ h2{
 #left{
     /* TO DO:
      figure out how much left/right I want these to be */
+    position: relative;
     text-align: left;
     color: white;
-    margin: 25%;
+    padding: 25% 50% 25% 0%;
     border: 1px solid #4CAF50;
 }
 #right{
     text-align: left;
 
+    position: relative;
     color: white;
-    margin: 25%;
+    padding: 25% 50% 25% 0%;
     border: 1px solid #4CAF50;
 }
