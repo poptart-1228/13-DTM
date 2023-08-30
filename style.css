@@ -76,11 +76,10 @@ h2{
     transform: translate(-20%, -50%); */
     border: 1px solid #4CAF50;
 }
-/* #right{
-    text-align: left;
+#right{
 
     position: relative;
     color: white;
-    margin: 25% 40% 25% 25%; 
+    margin: 15% 20% 0 55%; 
     border: 1px solid #4CAF50;
-} */ 
+}
