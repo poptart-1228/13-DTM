@@ -65,15 +65,10 @@ h2{
     background-repeat: no-repeat;
 }
 #left{
-    /* TO DO:
-     figure out how much left/right I want these to be */
+
     position: relative;
     color: white;
-    /* margin: 25% 25% 25% 40%; */
     margin: 15% 55% 0 20%;
-    /* top: 50%;
-    left: 20%;
-    transform: translate(-20%, -50%); */
     border: 1px solid #4CAF50;
 }
 #right{
