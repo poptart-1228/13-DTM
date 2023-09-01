@@ -72,9 +72,20 @@ h2{
     border: 1px solid #4CAF50;
 }
 #right{
-
     position: relative;
     color: white;
     margin: 15% 20% 0 55%; 
+    border: 1px solid #4CAF50;
+}
+#image-left{
+    position: relative;
+    color: white;
+    margin: 0 55% 0 20%;
+    border: 1px solid #4CAF50;
+}
+#image-right{
+    position: relative;
+    color: white;
+    margin: 0 20% 0 55%; 
     border: 1px solid #4CAF50;
 }
