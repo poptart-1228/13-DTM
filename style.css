@@ -64,27 +64,27 @@ h2{
     background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
     background-repeat: no-repeat;
 }
-#left li{
+.left li{
     display: inline-block;
     position: relative;
     color: white;
     margin: 15% 55% 0 20%;
     border: 1px solid #4CAF50;
 }
-#right li{
+.right li{
     display: inline-block;
     position: relative;
     color: white;
     margin: 15% 20% 0 55%; 
     border: 1px solid #4CAF50;
 }
-#image-left li{
+.image-left li{
     display: inline-block;    
     position: relative;
     color: white;
     /* margin: 0 55% 0 20%; */
 }
-#image-right li{
+.image-right li{
     display: inline-block;
     position: relative;
     color: white;
