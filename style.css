@@ -65,14 +65,14 @@ h2{
     background-repeat: no-repeat;
 }
 .left{
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
     color: white;
     margin: 15% 55% 0 20%;
     border: 1px solid #4CAF50;
 }
 .right{
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
     color: white;
     margin: 15% 20% 0 55%; 
@@ -84,7 +84,7 @@ h2{
     color: white;
     /* margin: 0 55% 0 20%; */
 }
-.image-right{
+.image-right {
     display: inline-block;
     position: relative;
     color: white;
