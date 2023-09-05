@@ -79,14 +79,14 @@ h2{
     border: 1px solid #4CAF50;
 }
 .image-left{
-    display: inline-block;    
+    /* display: inline-block;     */
     position: relative;
     color: white;
-    /* margin: 0 55% 0 20%; */
+    margin: 0 55% 0 20%;
 }
 .image-right {
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
     color: white;
-    /* margin: 0 20% 0 55%;  */
+    margin: 0 20% 0 55%; 
 }
