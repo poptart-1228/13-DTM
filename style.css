@@ -54,15 +54,17 @@ body{
     background-size: auto;
     font-size: 100px;
 
-    /* should modify text */
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-
     width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
+}
+p #present-wellington{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: red;
+}
 }
 h2{
     color: white;
