@@ -13,11 +13,10 @@
     background-repeat: no-repeat;
 
     color: white;
-
-    align-items: center;
 }
-
-
+h2 {
+    text-align: center;
+}
 .center{
     margin: auto;
     width: 60%;
