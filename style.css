@@ -29,7 +29,7 @@ h1{
     position: absolute;
     
 }
-/*  */
+/* this is important for parallax */
 body, html {
     height: 100%;
   }
@@ -58,17 +58,18 @@ body, html {
     background-size: cover;
     position: relative;
 }
+p #present-wellington-header{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: red;
+}
+}
 h2{
     color: white;
     font-size: large;
     
     text-align: center;
-    /* position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto; */
 }
 #content-page{
     min-height: 100vh;
