@@ -14,9 +14,10 @@
 
     color: white;
 }
-h2{
+/* for header in home page */
+h1{
     padding: 10px;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .center{
     margin: auto;
