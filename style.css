@@ -14,7 +14,10 @@
 
     color: white;
 }
-
+h2{
+    padding: 10px;
+    font-size: 2em;
+}
 .center{
     margin: auto;
     width: 50%;
@@ -23,7 +26,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    padding: 10px;
+    
 }
 /*  */
 body, html {
