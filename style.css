@@ -14,14 +14,13 @@
 
     color: white;
 }
-h1 {
-    text-align: center;
-}
+
 .center{
     margin: auto;
-    width: 60%;
+    width: 50%;
     /* padding: 10px; */
 }
+/*  */
 body, html {
     height: 100%;
   }
