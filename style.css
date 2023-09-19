@@ -30,7 +30,7 @@ h1{
     
 }
 /*  */
-body, html {
+body{
     height: 100%;
   }
 .parallax{
@@ -53,6 +53,12 @@ body, html {
     min-height: 100vh;
     background-size: auto;
     font-size: 100px;
+
+    /* should modify text */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -63,12 +69,6 @@ h2{
     font-size: large;
     
     text-align: center;
-    /* position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto; */
 }
 #content-page{
     min-height: 100vh;
