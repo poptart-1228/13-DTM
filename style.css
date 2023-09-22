@@ -108,4 +108,5 @@ maybe flexbox will work? */
 .container {
     display: flex;
     flex-wrap: wrap;
+    flex: 1 0 50%;
 }
