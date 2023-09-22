@@ -114,5 +114,6 @@ maybe flexbox will work? */
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 50%;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
