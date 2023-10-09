@@ -75,36 +75,36 @@ h2{
     text-align: center;
     position: relative;
 }
-#content-page{
-    min-height: 100vh;
-    background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
-}
 
 /* these damn margins are pushing on each other. gotta fix the damn thing
 maybe flexbox will work? */
 /* the margins were causing a zone outside the website. so DO NOT USE */
-.left{
-    position: relative;
-    color: white;
+/* .left{ */
+    /* position: relative; */
+    /* color: white; */
     /* values in this order: top, right, bottom, left */
     /* margin: 15% 55% 0 20%; */
-    border: 1px solid #4CAF50;
-}
-.right{
-    position: relative;
-    color: white;
+    /* border: 1px solid #4CAF50; */
+    /* } */
+    /* .right{ */
+    /* position: relative; */
+    /* color: white; */
     /* margin: 15% 20% 0 55%;  */
-    border: 1px solid #4CAF50;
-}
-.image-left{
-    position: relative;
-    color: white;
-    /* margin: 0 55% 0 20%; */
-}
-.image-right {
-    position: relative;
-    color: white;
-    /* margin: 0 20% 0 55%;  */
+    /* border: 1px solid #4CAF50; */
+    /* } */
+    /* .image-left{ */
+        /* position: relative; */
+        /* color: white; */
+        /* margin: 0 55% 0 20%; */
+        /* } */
+        /* .image-right { */
+            /* position: relative; */
+            /* color: white; */
+            /* margin: 0 20% 0 55%;  */
+            /* }  DO NOT USE*/
+#content-page{
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
 }
 .container {
     display: flex;
@@ -113,7 +113,7 @@ maybe flexbox will work? */
 .item {
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 50%;
+    flex-basis: 45%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10%;
