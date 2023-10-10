@@ -70,10 +70,16 @@ h2{
     color: white;
     font-size: 3rem;
     width: 50%;
-    padding: 10px;
-    /* background-color: red; */
+    /* padding: 10px; */
+    background-color: red;
     text-align: center;
-    position: relative;
+    /* position: relative; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin: auto;
+    /* width: 50%; */
 }
 #content-page{
     min-height: 100vh;
