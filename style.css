@@ -49,12 +49,20 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#past-wellington-header{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* background-color: red; */
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
 #present-wellington{
     background-image: url("wellington-harbour-present.png");
    
     min-height: 100vh;
     background-size: auto;
-    font-size: 4rem;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -67,6 +75,7 @@ body, html {
     /* background-color: red; */
     text-align: center;
     color: white;
+    font-size: 4rem;
 }
 
 
