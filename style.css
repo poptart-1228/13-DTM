@@ -59,12 +59,22 @@ body, html {
     font-size: 4rem;
 }
 .button {
-    border-color: black;
+    /* border-color: black;
     display: inline-block;
     padding: 2%;
     font-size: 1rem;
     border-radius: 70%;
-    display: block;
+    display: block; */
+    height: 80px;
+    line-height: 80px;  
+    width: 80px;  
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    cursor: pointer;
 }
 #present-wellington{
     background-image: url("wellington-harbour-present.png");
