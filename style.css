@@ -50,7 +50,7 @@ body, html {
     background-size: cover;
 }
 #past-wellington-header{
-    /* margin: auto; */
+    margin: auto;
     width: 100%;
     padding: 10px;
     /* background-color: red; */
@@ -62,8 +62,8 @@ body, html {
     border-color: black;
     display: inline-block;
     padding: 2%;
-    font-size: 2rem;
-    border-radius: 50%;
+    font-size: 1rem;
+    border-radius: 70%;
 }
 #present-wellington{
     background-image: url("wellington-harbour-present.png");
