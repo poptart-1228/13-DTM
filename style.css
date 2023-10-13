@@ -50,13 +50,14 @@ body, html {
     background-size: cover;
 }
 #past-wellington-header{
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
     padding: 10px;
     /* background-color: red; */
     text-align: center;
     color: white;
     font-size: 4rem;
+    border-radius: 50%;
 }
 .button {
     border-color: black;
