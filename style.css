@@ -35,7 +35,7 @@ body, html {
   }
 .parallax{
     /* The image used */
-    background-image: url("maori-te-aro-flat1700x800.jpg");
+    background-image: url("past_wellington.png");
     
     /* Full height */
     height: 100%;
@@ -48,7 +48,7 @@ body, html {
     background-size: cover;
 }
 #present-wellington{
-    background-image: url("wellington-harbour-present.png");
+    background-image: url("present_wellington.png");
    
     min-height: 100vh;
     background-size: auto;
