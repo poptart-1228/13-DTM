@@ -35,22 +35,22 @@ body, html {
   }
 
 
-/* .parallax{
-    The image used 
+.parallax{
+    /* The image used */
     background-image: url("past_wellington.png");
     
-    height extends scrolling on image
+    /* height extends scrolling on image*/
     height: 100%;
     
-    Create the parallax scrolling effect 
+    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 #past-wellington-header{
     margin: auto;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     text-align: center;
     color: white;
@@ -68,7 +68,7 @@ body, html {
     text-align: center;
     cursor: pointer;
 }
-/* #present-wellington{
+#present-wellington{
     background-image: url("present_wellington.png");
    
     min-height: 100vh;
@@ -77,10 +77,10 @@ body, html {
     background-position: center;
     background-size: cover;
     position: relative;
-} */
+}
 #present-wellington-header{
     margin: auto;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     text-align: center;
     color: white;
