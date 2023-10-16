@@ -34,18 +34,17 @@ body, html {
     height: 100%;
   }
 
-
+/* 
 .parallax{
-    /* The image used */
+    The image used 
     background-image: url("past_wellington.png");
     
-    /* height extends scrolling on image  */
+    height extends scrolling on image
     height: 100%;
     
-    /* Create the parallax scrolling effect */
+    Create the parallax scrolling effect 
     background-attachment: fixed;
     background-position: center;
-    /* ensures image does not repeat */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -53,18 +52,11 @@ body, html {
     margin: auto;
     width: 100%;
     padding: 10px;
-    /* background-color: red; */
     text-align: center;
     color: white;
     font-size: 4rem;
 }
 .button {
-    /* border-color: black;
-    display: inline-block;
-    padding: 2%;
-    font-size: 1rem;
-    border-radius: 70%;
-    display: block; */
     height: 80px;
     line-height: 80px;  
     width: 80px;  
@@ -81,7 +73,7 @@ body, html {
    
     min-height: 100vh;
     background-size: auto;
-    /* width: 100%; */
+    width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -90,11 +82,10 @@ body, html {
     margin: auto;
     width: 100%;
     padding: 10px;
-    /* background-color: red; */
     text-align: center;
     color: white;
     font-size: 4rem;
-}
+} */
 
 
 h2{
