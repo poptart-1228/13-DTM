@@ -68,7 +68,7 @@ body, html {
     text-align: center;
     cursor: pointer;
 }
-/* #present-wellington{
+#present-wellington{
     background-image: url("present_wellington.png");
    
     min-height: 100vh;
@@ -77,15 +77,15 @@ body, html {
     background-position: center;
     background-size: cover;
     position: relative;
-} */
-#present-wellington-header{
+}
+/* #present-wellington-header{
     margin: auto;
     width: 100%;
     padding: 10px;
     text-align: center;
     color: white;
     font-size: 4rem;
-}
+} */
 
 h2{
     color: white;
