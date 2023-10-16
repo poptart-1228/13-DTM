@@ -35,7 +35,7 @@ body, html {
   }
 
 
-/* .parallax{
+.parallax{
     The image used 
     background-image: url("past_wellington.png");
     
@@ -47,7 +47,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+/* }
 #past-wellington-header{
     margin: auto;
     width: 100%;
@@ -55,7 +55,7 @@ body, html {
     text-align: center;
     color: white;
     font-size: 4rem;
-}
+} */
 .button {
     height: 80px;
     line-height: 80px;  
