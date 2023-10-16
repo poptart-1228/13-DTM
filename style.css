@@ -22,7 +22,7 @@ h1{
 .center{
     margin: auto;
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -33,11 +33,13 @@ h1{
 body, html {
     height: 100%;
   }
+
+
 .parallax{
     /* The image used */
     background-image: url("past_wellington.png");
     
-    /* Full height */
+    /* height extends scrolling on image  */
     height: 100%;
     
     /* Create the parallax scrolling effect */
@@ -47,12 +49,38 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#past-wellington-header{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    /* background-color: red; */
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+.button {
+    /* border-color: black;
+    display: inline-block;
+    padding: 2%;
+    font-size: 1rem;
+    border-radius: 70%;
+    display: block; */
+    height: 80px;
+    line-height: 80px;  
+    width: 80px;  
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
 #present-wellington{
     background-image: url("present_wellington.png");
    
     min-height: 100vh;
     background-size: auto;
-    font-size: 4rem;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -60,51 +88,27 @@ body, html {
 }
 #present-wellington-header{
     margin: auto;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     /* background-color: red; */
     text-align: center;
     color: white;
+    font-size: 4rem;
 }
+
+
 h2{
     color: white;
     font-size: 3rem;
+    margin: auto;
     width: 50%;
     padding: 10px;
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
-    position: relative;
 }
 #content-page{
     min-height: 100vh;
     background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
-}
-
-/* these damn margins are pushing on each other. gotta fix the damn thing
-maybe flexbox will work? */
-/* the margins were causing a zone outside the website. so DO NOT USE */
-.left{
-    position: relative;
-    color: white;
-    /* values in this order: top, right, bottom, left */
-    /* margin: 15% 55% 0 20%; */
-    border: 1px solid #4CAF50;
-}
-.right{
-    position: relative;
-    color: white;
-    /* margin: 15% 20% 0 55%;  */
-    border: 1px solid #4CAF50;
-}
-.image-left{
-    position: relative;
-    color: white;
-    /* margin: 0 55% 0 20%; */
-}
-.image-right {
-    position: relative;
-    color: white;
-    /* margin: 0 20% 0 55%;  */
 }
 .container {
     display: flex;
@@ -113,9 +117,10 @@ maybe flexbox will work? */
 .item {
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 50%;
-    margin-left: 5%;
+    flex-basis: 25%;
+    margin-left: 10%;
     margin-right: 5%;
     margin-top: 10%;
     margin-bottom: 10%;
+    color: white;
 }
