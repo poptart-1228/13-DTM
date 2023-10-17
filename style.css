@@ -55,6 +55,7 @@ body, html {
     color: white;
     font-size: 4rem;
 }
+/* source - https://stackoverflow.com/questions/38320878/circle-button-css */
 .button {
     height: 80px;
     line-height: 80px;  
@@ -62,8 +63,8 @@ body, html {
     font-size: 2em;
     font-weight: bold;
     border-radius: 50%;
-    background-color: #4CAF50;
-    color: white;
+    background-color: whitesmoke;
+    color: #020202;
     text-align: center;
     cursor: pointer;
 }
