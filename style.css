@@ -34,6 +34,50 @@ body, html {
     height: 100%;
   }
 
+.past-present-wellington-container{
+    position: absolute;
+}
+.button {
+    height: 80px;
+    line-height: 80px;  
+    width: 80px;  
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: #020202;
+    text-align: center;
+    cursor: pointer;
+}
+#past-b1{
+    position: fixed;
+    top: 8px;
+    left: 16px;  
+}
+#past-b2{
+    position: fixed;
+    top: 8px;
+    right: 16px;
+}
+#past-b3{
+    position: fixed; 
+    bottom: 8px;
+    left: 16px;  
+}
+#past-b4{
+    position: fixed;
+    top: 50%;
+    width: 100%;
+}
+#present-b1{
+    
+}
+#present-b2{
+    
+}
+#present-b2{
+    
+}
 
 .parallax{
     /* The image used */
@@ -56,20 +100,9 @@ body, html {
     font-size: 4rem;
 }
 /* source - https://stackoverflow.com/questions/38320878/circle-button-css */
-.button {
-    height: 80px;
-    line-height: 80px;  
-    width: 80px;  
-    font-size: 2em;
-    font-weight: bold;
-    border-radius: 50%;
-    background-color: whitesmoke;
-    color: #020202;
-    text-align: center;
-    cursor: pointer;
-}
+
 #present-wellington{
-    background-image: url("present_wellington.png");
+    background-image: url("present_wellington2.png");
    
     min-height: 100vh;
     background-size: auto;
@@ -99,7 +132,7 @@ h2{
     min-height: 100vh;
     background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
 }
-.container {
+.flexbox-container {
     display: flex;
     flex-wrap: wrap;
 }
