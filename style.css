@@ -50,7 +50,9 @@ body, html {
     cursor: pointer;
 }
 #past-b1{
-    position: fixed;
+    /* required for internet explorer */
+    position: -webkit-sticky;
+    position: sticky;
     top: 8px;
     left: 16px;  
 }
@@ -64,6 +66,7 @@ body, html {
     bottom: 8px;
     left: 16px;  
 }
+/* centre */
 #past-b4{
     position: fixed;
     top: 50%;
