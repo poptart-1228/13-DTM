@@ -57,18 +57,21 @@ body, html {
     left: 16px;  
 }
 #past-b2{
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: 8px;
     right: 16px;
 }
 #past-b3{
-    position: fixed; 
+    position: -webkit-sticky;
+    position: sticky;
     bottom: 8px;
     left: 16px;  
 }
 /* centre */
 #past-b4{
-    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
     top: 50%;
     width: 100%;
 }
