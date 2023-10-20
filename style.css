@@ -73,16 +73,18 @@ body, html {
     position: -webkit-sticky;
     position: sticky;
     top: 50%;
-    width: 100%;
 }
 #present-b1{
-    
+    position: -webkit-sticky;
+    position: sticky;
 }
 #present-b2{
-    
+    position: -webkit-sticky;
+    position: sticky;
 }
 #present-b2{
-    
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 .parallax{
