@@ -54,8 +54,8 @@ body, html {
     /* required for internet explorer */
     position: -webkit-sticky;
     position: sticky;
-    top: 8px;
-    left: 16px;
+    /* top: 8px;
+    left: 16px; */
     transform: translate(-20%, -30%);  
 }
 /* waterfront */
