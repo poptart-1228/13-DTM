@@ -49,30 +49,36 @@ body, html {
     text-align: center;
     cursor: pointer;
 }
+/* hills */
 #past-b1{
     /* required for internet explorer */
     position: -webkit-sticky;
     position: sticky;
     top: 8px;
-    left: 16px;  
+    left: 16px;
+    transform: translate(-20%, -30%);  
 }
+/* waterfront */
 #past-b2{
     position: -webkit-sticky;
     position: sticky;
     top: 8px;
     right: 16px;
 }
+/* people */
 #past-b3{
     position: -webkit-sticky;
     position: sticky;
     bottom: 8px;
     left: 16px;  
 }
-/* centre */
+/* centre; town */
 #past-b4{
     position: -webkit-sticky;
     position: sticky;
     top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
 }
 #present-b1{
     position: -webkit-sticky;
