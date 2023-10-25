@@ -80,15 +80,22 @@ body, html {
     left: 70%;
     transform: translate(-70%, -50%);
 }
+/* hills */
 #present-b1{
     position: -webkit-sticky;
     position: sticky;
+    top: 24%;
+    left: 31%;
 }
+/* city */
 #present-b2{
     position: -webkit-sticky;
     position: sticky;
+    top: 44%;
+    left: 83%;
 }
-#present-b2{
+/* waterfront */
+#present-b3{
     position: -webkit-sticky;
     position: sticky;
 }
