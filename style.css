@@ -49,6 +49,16 @@ body, html {
     text-align: center;
     cursor: pointer;
 }
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+  }
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
 /* hills */
 #past-b1{
     /* required for internet explorer */
