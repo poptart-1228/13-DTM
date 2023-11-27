@@ -11,13 +11,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Ysabeau+Office&display=swap" rel="stylesheet">
 
-        <script>
-            // open pop up box
-            function myFunction() {
-              var popup = document.getElementById("myPopup");
-              popup.classList.toggle("show");
-            }
-            </script>
     </head>
     <body>
         <!-- landing page -->
@@ -30,10 +23,18 @@
 
            <div class="parallax" class="past-present-wellington-container">
                 <p id="past-wellington-header">smth smth this should work.</p>
-                
+
                 <button class="button info-box" id="past-b1" onclick="makeInfoBoxAppear()">+
                     <span class="info-box-text" id="infoBox">Lorem ipsum dolor sit amet,</span>
                 </button>
+
+                <script>
+                    // open pop up box
+                    function myFunction() {
+                      var infoBox = document.getElementById("infoBox");
+                      infoBox.classList.toggle("show");
+                    }
+                </script>
 
                 <button class="button" id="past-b2" class="show">+</button>
                 <button class="button" id="past-b3" class="show">+</button>
