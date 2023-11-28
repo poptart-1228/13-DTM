@@ -1,28 +1,228 @@
 * {
-    font-family: 'BIZ UDPGothic', sans-serif;
     font-family: 'Ysabeau Office', sans-serif;
+    /* Very important as it ensures there are no gaps. */
+    margin: 0;
+    padding: 0;
 }
-.class header{
-    color: black;
-    font-size: x-large;
+.banner{
+    min-height: 100vh;
+    width: 100%;
+   
+    background: linear-gradient(0deg, rgba(13,152,186,0.64) 0%, rgba(29,129,195,1) 100%);
+    background-repeat: no-repeat;
+
+    color: white;
+}
+/* for header in home page */
+h1{
+    padding: 10px;
+    font-size: 2rem;
 }
 .center{
     margin: auto;
-    width: 60%;
-    padding: 10px;
+    width: 50%;
+    /* background-color: red; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
 }
-#past-wellington{
+/* this is important for parallax */
+body, html {
+    height: 100%;
+  }
+
+.past-present-wellington-container{
+    position: absolute;
+}
+.button {
+    height: 80px;
+    line-height: 80px;  
+    width: 80px;  
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: #020202;
+    text-align: center;
+    cursor: pointer;
+}
+ /* container */
+.info-box {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* actual popup */
+.info-box .info-box-text {
+    visibility: hidden;
+    width: max-content;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10%;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+/* info box arrow */
+.info-box .info-box-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+/* hide and show box */
+.info-box .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/* hills */
+#past-b1{
+    /* required for internet explorer */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 28%;
+    left: 22%;
+    transform: translate(-20%, -30%);  
+}
+/* waterfront */
+#past-b2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 75%;
+    left: 73%;
+}
+/* people */
+#past-b3{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 69.5%;
+    left: 30%; 
+}
+/* centre; town */
+#past-b4{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 45.5%;
+    left: 70%;
+    transform: translate(-70%, -50%);
+}
+/* hills */
+#present-b1{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 24%;
+    left: 31%;
+}
+/* city */
+#present-b2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 44%;
+    left: 83%;
+}
+/* waterfront */
+#present-b3{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80%;
+    left: 70%;
+}
+
+.parallax{
+    /* The image used */
+    background-image: url("past_wellington.png");
+    
+    /* height extends scrolling on image*/
+    height: 140%;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#past-wellington-header{
     margin: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
 }
+/* source - https://stackoverflow.com/questions/38320878/circle-button-css */
+
 #present-wellington{
-    margin: auto;
-    padding: 0px 0px 0px 0px;
+    background-image: url("present_wellington2.png");
+/*    
+    min-height: 100vh;
+    background-size: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover; */
+    /* ensures buttons stay in their assigned positions */
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.content h2{
-    color: black;
-    font-size: large;
+#present-wellington-header{
     margin: auto;
-    width: 60%;
     padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+h2{
+    color: white;
+    font-size: 3rem;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* background-color: red; */
+    text-align: center;
+}
+#content-page{
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(26,158,149,0.54) 0%, rgba(29,129,195,1) 100%);
+}
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: white;
 }

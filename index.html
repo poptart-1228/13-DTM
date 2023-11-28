@@ -2,49 +2,97 @@
 
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <!-- name and content are part of responsive web design -->
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biculturalism</title>
+        <!-- fonts -->
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Ysabeau+Office&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <!-- landing page -->
-        <section class="header">
+        <section class="banner">
         <div class="center"><h1 id="te reo maori">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h1>
             <h1 id="English">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h1>
         </div>
         </section>
         <!-- parallax -->
-        <section>
-           <div id="past wellington"> <img src="maori-te-aro-flat1700x800.jpg">
+
+           <div class="parallax" class="past-present-wellington-container">
+                <p id="past-wellington-header">I mua | Before</p>
+
+                <button class="button info-box" id="past-b1" onclick="makeInfoBoxAppear()">+
+                    <span class="info-box-text" id="infoBox">Lorem ipsum dolor sit amet,</span>
+                </button>
+
+                <script>
+                    // open pop up box
+                    function makeInfoBoxAppear() {
+                      var infoBox = document.getElementById("infoBox");
+                      infoBox.classList.toggle("show");
+                    }
+                </script>
+
+                <button class="button" id="past-b2" class="show">+</button>
+                <button class="button" id="past-b3" class="show">+</button>
+                <button class="button" id="past-b4" class="show">+</button>
            </div>
-           <div id="present wellington"><img src="wellington-harbour-present.png">
+           <div id="present-wellington" class="past-present-wellington-container">
+                <p id="present-wellington-header">I muri | After</p>
+                <button class="button" id="present-b1" class="show">+</button>
+                <button class="button" id="present-b2" class="show">+</button>
+                <button class="button" id="present-b3" class="show">+</button>
             </div>
-        </section>
+
 
         <!-- main content page -->
-        <section class="content">
+        <section id="content-page">
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        </section>
+            <div class="flexbox-container">
+                <div class="item">
+                    <!-- if flexbox doesn't work, use class="left", right, image-left and image-right -->
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                
+                </div>
 
-        <section>
+
+                <div class="item"><img src="Rectangle_2.png"></div>
+
+
+                <div class="item">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                </div>
+
+
+                <div class="item"><img src="Rectangle_2.png"></div>
+
+
+                <div class="item">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                </div>
+                
+                <div class="item"><img src="Rectangle_2.png"></div>
+            </div>
         </section>
+        <!-- <section>
+        </section> -->
     </body>
 </html>
